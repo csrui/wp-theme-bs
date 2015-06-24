@@ -1,0 +1,24 @@
+{
+  "name": "",
+  "description": "",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Rui Cruz <mail@ruicruz.com>",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "gulp-size": "~1.2.1",
+    "gulp-compressor": "~0.1.0",
+    "gulp-task-listing": "~1.0.0",
+    "gulp": "~3.8.11",
+    "gulp-tag-version": "~1.2.1",
+    "gulp-less": "~3.0.3",
+    "gulp-rename": "~1.2.2",
+    "gulp-concat": "~2.5.2",
+    "gulp-strip-comments": "~1.0.1",
+    // "bootstrap-select": "~1.7.1",
+  }
+}

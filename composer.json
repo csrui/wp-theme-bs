@@ -1,0 +1,26 @@
+{
+	"name": "",
+	"description": "",
+	"repositories":[
+		{
+			"type":"composer",
+			"url":"http://wpackagist.org"
+		}
+	],
+	"extra": {
+		"installer-paths" : {
+			"../../plugins/{$name}/": ["type:wordpress-plugin"]
+		}
+	},
+	"require": {
+		"wpackagist-plugin/advanced-custom-fields": "4.4.1",
+		"wpackagist-plugin/contact-form-7": "4.1.2",
+		"wpackagist-plugin/acf-accordion": "1.0.1",
+		"wpackagist-plugin/regenerate-thumbnails": "2.2.4",
+		"wpackagist-plugin/wp-pagenavi": "2.87",
+		"wpackagist-plugin/debug-bar": "0.8.2",
+		"wpackagist-plugin/bootstrap-for-contact-form-7": "1.1.1",
+		// "wpackagist-plugin/advanced-custom-fields-coordinates": "1.0.0",
+		// "wpackagist-plugin/wp-favorite-posts": "1.6.2"
+	}
+}
